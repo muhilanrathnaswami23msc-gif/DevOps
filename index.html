@@ -1,67 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Deployment Version 4</title>
+    <title>CI/CD Deployment Success</title>
     <style>
         body {
             margin: 0;
-            font-family: 'Courier New', monospace;
-            background-color: #0f0f0f;
-            color: #00ffcc;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #111;
+            color: #fff;
             text-align: center;
         }
 
-        .header {
-            background-color: #1e1e1e;
-            padding: 25px;
-            font-size: 30px;
+        .banner {
+            background-color: #ff4757;
+            padding: 20px;
+            font-size: 28px;
             font-weight: bold;
-            letter-spacing: 2px;
         }
 
-        .container {
-            margin-top: 120px;
-        }
-
-        .status {
-            font-size: 40px;
-            color: #39ff14;
-            margin-bottom: 20px;
-        }
-
-        .details {
-            font-size: 20px;
-            color: #ffffff;
-        }
-
-        .footer {
+        .content {
             margin-top: 100px;
-            font-size: 14px;
-            color: #888;
+        }
+
+        .version {
+            margin-top: 40px;
+            font-size: 24px;
+            color: #00ff99;
+        }
+
+        .box {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 25px;
+            border: 2px solid #00ff99;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        🚀 CI/CD PIPELINE ACTIVE
+    <div class="banner">
+        🔥 AUTOMATED DEPLOYMENT SUCCESSFUL 🔥
     </div>
 
-    <div class="container">
-        <div class="status">
-            DEPLOYMENT VERSION 4
+    <div class="content">
+        <h1>Jenkins + GitHub Webhook + Docker</h1>
+        <div class="box">
+            <p>If you can see this page, your CI/CD pipeline is working perfectly.</p>
+            <p class="version">VERSION 3 - LIVE REDEPLOY TEST</p>
         </div>
-
-        <div class="details">
-            <p>✔ GitHub Push Detected</p>
-            <p>✔ Jenkins Build Successful</p>
-            <p>✔ Docker Container Recreated</p>
-            <p>✔ Application Redeployed</p>
-        </div>
-    </div>
-
-    <div class="footer">
-        DevOps Practice Environment - Live Container
     </div>
 
 </body>
