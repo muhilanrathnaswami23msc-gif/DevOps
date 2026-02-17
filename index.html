@@ -1,36 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Webhook Test Successful</title>
+    <title>Deployment Version 4</title>
     <style>
         body {
-            background: linear-gradient(to right, #000428, #004e92);
-            color: white;
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            background-color: #0f0f0f;
+            color: #00ffcc;
             text-align: center;
-            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #1e1e1e;
+            padding: 25px;
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .container {
             margin-top: 120px;
         }
-        h1 {
-            font-size: 50px;
-            color: #00ffcc;
+
+        .status {
+            font-size: 40px;
+            color: #39ff14;
+            margin-bottom: 20px;
         }
-        .box {
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 10px;
-            display: inline-block;
-            margin-top: 20px;
+
+        .details {
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        .footer {
+            margin-top: 100px;
+            font-size: 14px;
+            color: #888;
         }
     </style>
 </head>
 <body>
 
-    <h1>✅ WEBHOOK WORKING!</h1>
+    <div class="header">
+        🚀 CI/CD PIPELINE ACTIVE
+    </div>
 
-    <div class="box">
-        <h2>Jenkins CI/CD Triggered Successfully 🚀</h2>
-        <p>If you can see this page, your GitHub webhook is working.</p>
-        <p>Deployment Time: <b>TEST VERSION 2</b></p>
+    <div class="container">
+        <div class="status">
+            DEPLOYMENT VERSION 4
+        </div>
+
+        <div class="details">
+            <p>✔ GitHub Push Detected</p>
+            <p>✔ Jenkins Build Successful</p>
+            <p>✔ Docker Container Recreated</p>
+            <p>✔ Application Redeployed</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        DevOps Practice Environment - Live Container
     </div>
 
 </body>
